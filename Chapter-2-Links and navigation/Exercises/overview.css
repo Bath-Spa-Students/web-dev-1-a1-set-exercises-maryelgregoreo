@@ -1,0 +1,34 @@
+/* body style */
+body {
+    background-color: black;
+}
+
+
+/* overview style */
+#Overview {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+/* overview heading style */
+#Overview h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* overview paragraph style */
+#Overview p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+}
+
+
+  

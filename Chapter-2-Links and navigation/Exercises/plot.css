@@ -1,0 +1,31 @@
+/* body style */
+body {
+    background-color: black;
+}
+
+
+/* plot style */
+#Plot {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+/* plot header style */
+#Plot h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* plot paragraph style */
+#Plot p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+}

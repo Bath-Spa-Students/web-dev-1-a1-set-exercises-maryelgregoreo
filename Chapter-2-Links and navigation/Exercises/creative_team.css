@@ -1,0 +1,40 @@
+/* body style */
+body {
+    background-color: black;
+}
+
+
+/* creative team style */
+#Creative_Team {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+  
+
+/* creative team heading style */
+#Creative_Team h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* creative team paragraph style */
+#Creative_Team p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+}
+
+
+/* creative team list style */
+#Creative_Team li {
+    color: black;
+    font-family: Cambria;
+    font-size: larger;
+    font-style: italic;
+}

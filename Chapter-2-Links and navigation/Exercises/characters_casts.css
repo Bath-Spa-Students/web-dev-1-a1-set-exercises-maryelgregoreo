@@ -1,0 +1,40 @@
+/* body style */
+body {
+    background-color: black; /* background color */
+}
+
+
+/* characters style */
+#Characters {
+    margin: 20px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+/* characters heading style */
+#Characters h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* chracters paragraph style */
+#Characters p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+}
+
+
+/* chracters list style */
+#Characters li {
+    color: black;
+    font-family: Cambria;
+    font-size: larger;
+    font-style: italic;
+}

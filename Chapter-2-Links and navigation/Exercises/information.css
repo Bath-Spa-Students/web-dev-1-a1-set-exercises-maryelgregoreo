@@ -1,0 +1,32 @@
+/* body style */
+body {
+    background-color: black;
+}
+
+
+/* information style */
+#Information {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+/* information heading style */
+#Information h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* information paragraph style */
+#Information p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+}
+

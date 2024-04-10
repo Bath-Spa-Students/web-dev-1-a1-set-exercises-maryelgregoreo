@@ -1,0 +1,32 @@
+/* body style */
+body {
+    background-color: black;
+}
+
+
+/* review style */
+#Reviews {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+
+/* review header style */
+#Reviews h2 {
+    color: black;
+    font-size: 30px;
+}
+
+
+/* review paragraph style */
+#Reviews p {
+    color: black;
+    font-family: Cambria;
+    font-size:larger;
+    font-style: italic;
+}
+
