@@ -15,7 +15,8 @@ p {
     font-style: italic; /* font style */
     font-size: larger; /* font size */
     background-color: lightyellow; /* color of the background */
-    border: 2px solid black; /* color and size of the border */
+    border: 15px solid rgb(252, 179, 179); 
+    border-radius: 10px; /* border radius */
     text-align: center; /* align the text to the center */
     margin-inline-start: 10%; /* start of the margin */
     margin-inline-end: 10%; /* end of the margin */
@@ -30,9 +31,10 @@ h1 {
     font-size:xx-large; /* font size */
     text-align: center; /* align the text to the center */ 
     font-style: italic; /* font style */
-    background-color: rgb(234, 99, 50); /* background color */ 
+    background-color: rgb(243, 147, 113); /* background color */ 
     padding: 5px; /* padding */
     border: 10px solid black; /* color and size of the border */ 
+    border-radius: 10px; /* border radius */
 }
 
 
@@ -53,10 +55,20 @@ li {
     font-family: serif; /* font */
     font-size: larger; /* font size */
     background-color: lightyellow; /* background color */
-    border: 0.5px solid black; /* color and size of the border */ 
+    margin: 10px; /* margin */
     max-width: 700px; /* limit of the width */
+    padding: 0; /* padding */
 }
 
+ul {
+    background-color:rgb(252, 179, 179); /* background color */
+    border-radius: 10px; /* border radius */
+}
+
+ol {
+    background-color:rgb(252, 179, 179); /* background color */
+    border-radius: 10px; /* border radius */
+}
 
 .image {
     display: block; /* display as block */
