@@ -1,0 +1,80 @@
+/* body style */
+body {
+    font-family: Georgia; /* font */
+    background-color: white; /* background color */
+    padding: 50px /* padding */
+}
+
+
+/* header style */
+header {
+    background-color: lightblue; /* background color */
+    border: solid black; /* border size and color */
+}
+
+
+/* calculator style */
+.calculator {
+    text-align: center; /* aligns the text into the center */
+    margin-top: 50px; /* margin from the top */
+    margin-bottom: 20px; /* margin from the bottom */
+    margin-left: 5%; /* margin from the left */
+}
+
+.input, .amount {
+    margin-bottom: 20px; /* margin from the bottom */
+    text-align: center; /* aligns the text into the center */
+    margin-top: 5%; /* margin from the top */
+    
+}
+
+
+/* Number input style */
+input[type="number"] {
+    font-size: x-large; /* font size */
+    text-align: center; /* aligns the text into the center */
+    width: 20%; /* width */
+    margin: 0; /* margin */
+    padding: 20px; /* padding */
+    border-radius: 40px; /*border radius */
+}
+
+
+/* Number output style */
+input[type="number"]:focus {
+    font-size: x-large; /* font size */
+}
+
+
+/* calculate button style */
+.calculate {
+    text-align: center; /* aligns the text into the center */
+}
+
+
+/* button style */
+button {
+    background-color:dodgerblue; /* background color */
+    color: white; /* text color */
+    font-size: x-large; /* font size */
+    padding: 20px; /* padding */
+    border-radius: 10px; /* border radius */ 
+    cursor: pointer; /* set curser to pointer */
+    margin-left: 6%; /* margin in the left */
+    
+    
+}
+
+
+/* button style during hover */
+button:hover {
+    background-color: darkblue; /* background color */
+}
+
+
+/* total cost style */ 
+#total-cost {
+    margin-top: 30px; /* margin in the top */
+    font-size: 25px; /* font size */
+    margin-left: 5%; /* margin in the left */
+}
