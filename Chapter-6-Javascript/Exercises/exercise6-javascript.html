@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title> Exercise 6 - Javascript </title>
+
+    <!-- External CSS sheet -->
+    <link rel="stylesheet" href="excercise6-javascript.css">    
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+
+        <!-- calculator class -->
+        <div class="calculator">
+
+            <!-- calculator header -->
+            <h1> Petrol Calculator </h1>
+        </div>
+
+        <!-- input for cost per liter -->
+        <div class="input">
+            <label for="liter-input"> Cost per ($): </label>
+            <input  
+                type="number" 
+                name="cost" 
+                id="liter-cost" 
+                value="1.72" 
+                step="0.01" 
+                placeholder="Cost per liter" 
+                required>
+        </div>
+
+        <!-- input for amount of liter -->
+        <div class="amount">
+            <label for="liter-amount"> Amount of liter (liters): </label>
+            <input 
+                type="number" 
+                name="amount" 
+                id="amount-of-liter" 
+                value="0" 
+                step="0.01"
+                placeholder="Amount of liter"
+                required>
+        </div>
+
+        <!-- calculator botton and total cost display -->
+        <div class="calculate">
+            <button id="calculate-btn"> Calculate </button>
+            <p id="total-cost"> Total cost: </p>
+        </div>
+
+    </header>
+
+<!-- javascript sheet -->
+<script src="exercise6-javascript.js"> </script>
+
+</body>
+</html>
