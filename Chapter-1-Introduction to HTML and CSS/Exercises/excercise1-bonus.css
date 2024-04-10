@@ -1,0 +1,22 @@
+/*Style of body */
+body {
+    background-color: skyblue; /* background color */
+    font-family: Courier; /* font**/
+    font-size: x-large; /* font size */
+    margin-left: 5%; /* space or margin of the whole page in the left */
+    margin-right: 5%; /* space or margin of the whole page in the right */
+}
+
+h1, h2 {
+    background-color: lightgrey; /* background color */
+    text-align: center; /* the alignment of text */
+}
+
+h3 {
+    text-decoration: underline; /* header 3 is underlined */
+    text-indent: 5%; /* indentation of the text */
+}
+
+p {
+    text-indent: 10%; /* indentation of the text */
+}

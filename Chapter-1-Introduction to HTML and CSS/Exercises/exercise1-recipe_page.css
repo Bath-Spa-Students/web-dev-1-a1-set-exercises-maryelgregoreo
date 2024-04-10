@@ -1,0 +1,68 @@
+/* Style of the body */
+body {
+    background-color:blanchedalmond; /* background color */
+    display: flex; /* display flex to arrange the items */
+    flex-direction: column; /* arrange items in a column vertically */
+    align-items: center; /* align the items in the center */
+    margin-left: 10%; /* margin in the left */
+    margin-right: 10%; /*margin in the right */
+}
+
+
+/* Style for paragraph */
+p {
+    font-family: Verdana; /* font */
+    font-style: italic; /* font style */
+    font-size: larger; /* font size */
+    background-color: lightyellow; /* color of the background */
+    border: 2px solid black; /* color and size of the border */
+    text-align: center; /* align the text to the center */
+    margin-inline-start: 10%; /* start of the margin */
+    margin-inline-end: 10%; /* end of the margin */
+
+}
+
+
+/* Style for heading 1 */
+h1 {
+    font-family: 'Times New Roman'; /* font */
+    color: black; /* font color */
+    font-size:xx-large; /* font size */
+    text-align: center; /* align the text to the center */ 
+    font-style: italic; /* font style */
+    background-color: rgb(234, 99, 50); /* background color */ 
+    padding: 5px; /* padding */
+    border: 10px solid black; /* color and size of the border */ 
+}
+
+
+/* Style for heading 2 */
+h2 {
+    font-family: 'Times New Roman'; /* font */
+    color: black; /* font color */
+    background-color: rgb(245, 210, 135); /* background color */
+    border-radius: 10px; /* border radius */
+    border: 5px solid black; /* color and size of the border */ 
+    max-width: fit-content; /* limit of the width to content */
+    text-align: center; /* align the text to the center */
+}
+
+
+/* Style for the list */
+li {
+    font-family: serif; /* font */
+    font-size: larger; /* font size */
+    background-color: lightyellow; /* background color */
+    border: 0.5px solid black; /* color and size of the border */ 
+    max-width: 700px; /* limit of the width */
+}
+
+
+.image {
+    display: block; /* display as block */
+    text-align: center; /* align the text to the center */
+    max-width: 40%; /* limit of the width */
+    border: 5px solid black; /* color and size of the border */ 
+    border-radius: 10px; /* border radius */
+}
+
