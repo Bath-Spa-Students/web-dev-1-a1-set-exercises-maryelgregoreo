@@ -1,0 +1,45 @@
+/* given div style */
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+ 
+
+/* body style */
+body {
+    margin: 100px auto;
+    width: max-content;
+}
+
+
+/* div A shape style **/
+#A {
+  border: solid blueviolet; /* border color thickness */
+  box-shadow: 15px 15px 15px red; /* box shadow size and color */
+}
+
+#B {
+  border: solid lawngreen; /* border color thickness */
+  box-shadow: 10px 10px 10px black inset; /* box shadow size, color and placement */
+}
+
+#C {
+  border: 5px solid orange; /* border color thickness */
+  outline: 7px solid blue; /* outline color thickness */
+  box-shadow:  0 0 0 15px red, /* box shadow size and color */
+               0 0 0 25px darkgreen; /* second box shadow size and color */
+  border-radius: 10px;
+}
+
+#D {
+  border: solid darkred; /* border color thickness */
+  text-shadow: 5px 5px 1px ; /* text shadow blur, placement and sharpness */ 
+}
+
