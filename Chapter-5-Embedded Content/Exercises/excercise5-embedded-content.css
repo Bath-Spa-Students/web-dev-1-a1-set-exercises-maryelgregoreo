@@ -1,0 +1,18 @@
+/* body style */
+body {
+    height: 100%; /* height */
+    margin: 5%; /* margin */
+    background-color:lightsteelblue; /* background color */
+    display: flex; /* display flex to align content to the center */
+    justify-content: center; /* horizontally aligns to the center */
+    align-items: center; /* vertically aligns to the center */
+    
+}
+
+
+/* video style */
+video {
+    width: auto; /* width to auto to maintain aspect ratio */
+    max-width: 100%; /* maximum width */
+    max-height: 100%; /* maximum height */ 
+}
