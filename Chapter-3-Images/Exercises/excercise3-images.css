@@ -1,0 +1,67 @@
+/* background image style */
+.background-image {
+    position: fixed; /* fixed position */
+    top: 0; /* placement of the image */
+    left: 0; /* placement of the image */
+    width: 100%; /* image size */
+    height: 100%; /* image size */
+    object-fit: cover; /* allows to cover the whole page */
+    z-index: -1; /* sets the image to the background */
+}
+
+
+/* images class style */
+.images {
+    display: flex; /* arranges in a row */
+    justify-content: space-evenly; /* spaces evenly the images */
+    align-items: center; /* align items into the center */
+}
+
+
+/* image 1 style */
+.img1 {
+    position:fixed; /* fixed position */
+    border: solid black 10px ; /* border size and color */
+    margin-top: 13%; /* margin size in the top */
+    left: 13%; /* image placement */
+    
+}
+
+
+/* image 2 style */
+.img2 {
+    position:fixed; /* fixed position */
+    border: solid black 10px ;  /* border size and color */
+    margin-top: 13%; /* margin size in the top */
+}
+
+
+/* image 3 style */
+.img3 {
+    position:fixed; /* fixed position */
+    border: solid black 10px ; /* border size and color */
+    margin-top: 13%; /* margin size in the top */
+    right: 13%; /* image placement */
+    
+}
+
+
+/* copyright style */
+.images p {
+    position: fixed; /* fixed position */
+    bottom: 68%; /* text placement */
+    text-align: center; /* align items into the center */
+    font-size: x-large; /* font size */
+    background-color:lightgray; /* background color */
+    border: solid black; /* border size and color */
+}
+
+
+/* pokeball style */
+.pokeball {
+    display: flex; /* arranges in a row */
+    justify-content: space-evenly; /* spaces evenly the images */
+    margin-top: 17%; /* align items into the center */
+}
+
+
