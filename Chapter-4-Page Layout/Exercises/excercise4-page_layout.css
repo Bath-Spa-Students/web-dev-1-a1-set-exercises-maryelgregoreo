@@ -1,0 +1,107 @@
+/* body style */
+body {
+    margin: 0;
+}
+
+
+/* main section style */
+main {
+    display: flex; /* arranges in a row */
+    justify-content: space-between; /* spaces evenly between items */
+}
+
+
+/* header style */
+header  {
+    font-family: Tahoma; /* font */
+    color: white; /* text color */
+    font: 700; /* font weight */
+    background-color: #17072b; /* background color */
+    text-align: center; /* aligns the text into the center */
+    text-decoration: underline; /* underlines the text */
+    padding: 20px; /* padding */
+}
+
+
+/* navigation bar text style */
+.navigation_bar a {
+    background-color: #17072b; /* background color */
+    color: white; /* text color */ 
+    text-align: center; /* aligns the text into the center */
+    font-size: x-large; /* font size */
+    text-decoration: none; /* should remove the underline of the links */
+    padding: 10px; /* padding */
+}
+
+
+/* welcome section style */
+#Welcome {
+    font-family: Arial; /* font style */
+    background-color: white; /* background color */
+    margin-left: 35px; /* margin to the left */
+    flex: 2; /* flexes the size of welcome section */
+}
+
+
+/* welcome header style */
+#Welcome h2 {
+    font-size: 35px; /* font size */
+    text-decoration: underline; /* underlines the header */
+}
+
+
+/* welcome paragraph/content style */
+#Welcome p {
+    font: 400; /* font weight */
+    font-size: 25px; /* font size */
+    margin-right: 75px; /* margin to the right */
+}
+
+
+/* image in welcome section **/
+#Welcome img {
+    max-width: 100%; /* limit of maximum width */
+
+}
+
+
+/* line up style */
+.Line_Up {
+    font-size: 20px; /* font size */
+    font-family: Arial; /* font style */
+    background-color: #172d67; /* background color */
+    color: white; /* text color */ 
+    text-indent: 20px; /* size of text indention */
+    margin-top: 10px; /* margin from the top */
+    margin-left: 50px; /* margin from the left */
+    flex: 1; /* flexes the size of line up section */
+}
+
+
+/* line up header style */
+.Line_Up h2 {
+    color: white; /* text color */ 
+    text-decoration: underline; /* underlines the header */
+}
+
+
+/* images in line up section style */
+.image1, .image2 {
+    width: 40%; /* width of the image */
+    margin: 15px; /* margin */
+    margin-top: 60px; /* margin from the top */
+}
+
+
+/* footer style */
+footer {
+    font-family: Arial; /* font style */
+    font-size: x-large; /* font size */
+    color: white; /* text color */ 
+    background-color: #8c15e9; /* background color */
+    text-align: center; /* aligns the text into the center */
+    padding: 30px; /* padding */
+    position: fixed; /* fixes the position */
+    bottom: 0; /* placement */
+    width: 100%; /* width */
+}
