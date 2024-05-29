@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open class.html",
+            "file": "c:\\Users\\marye\\OneDrive\\Documents\\GitHub\\web-dev-1-a1-set-exercises-maryelgregoreo\\Chapter-1-Introduction to HTML and CSS\\Exercises\\class.html"
+        }
+    ]
+}
